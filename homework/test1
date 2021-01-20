@@ -2,9 +2,9 @@ int a;
 int b;
 int c;
 
-b = 4
-a = 3
-c = 5
+b = 4;
+a = 3;
+c = 5;
 
 int sum;
 sum = a + b + c;
@@ -31,4 +31,4 @@ a = x;
 Int b;
 b = y;
 Int sum;
-Sum = (( x + y ) – y) + ( ( y + x ) – x );
+Sum = ( ( x + y ) – y) + ( ( y + x ) – x );
