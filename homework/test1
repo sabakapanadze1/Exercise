@@ -27,8 +27,8 @@ a = 4 + 6;
 
 
 Int a;
-a = x;
+a = 5;
 Int b;
-b = y;
+b = 3;
 Int sum;
-Sum = ( ( x + y ) – y) + ( ( y + x ) – x );
+Sum = ( ( 5 + 3 ) – 5) + ( ( 5 + 3 ) – 3 );
