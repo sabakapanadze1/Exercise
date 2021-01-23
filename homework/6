@@ -57,6 +57,9 @@ a = 8;
 b = 80;
 c = 10;
 
+int result;
+reslt = 800 * 80 * 10;
+
 
  Input         |   Result
     8 80 10    |   8800 
