@@ -3,12 +3,15 @@
 */
 
 {
-Int a;
-a = 5;
-Int b;
-b = 3;
-Int sum;
-Sum = ( ( a + b ) – a) + ( ( a + b ) – b );
+  Int a;
+  Int b;
+
+  a = 5;
+  b = 3;
+
+  a = a + b;
+  b = a - b;
+  a = a - b;
 }
 
 /* 2. ამოცანის პირობა
@@ -17,14 +20,14 @@ Sum = ( ( a + b ) – a) + ( ( a + b ) – b );
  */
  
 {
-int a;
-int b;
+  int a;
+  int b;
 
-a = 4;
-b = 5;
+  a = 4;
+  b = 5;
 
-int area;
-area = a * b;
+  int area;
+  area = a * b;
 }
 
 /*  3. ამოცანის პირობა
@@ -32,14 +35,14 @@ area = a * b;
 */
  
 { 
-int a;
-int b;
+  int a;
+  int b;
 
-a = 4;
-b = 5;
+  a = 4;
+  b = 5;
 
-int area;
-area = (a + b) * 2;
+  int area;
+  area = (a + b) * 2;
 }
 
 /*4. ამოცანის პირობა
@@ -49,20 +52,18 @@ area = (a + b) * 2;
   დავთვალოთ რამდენი თეთრი უნდა გადავიხადოთ და მოვათავსოთ result ცვლადში.
 */  
 {
-int a;
-int b;
-int n;
+  int a;
+  int b;
+  int n;
 
-a = 8;
-b = 80;
-c = 10;
+  a = 8;
+  b = 80;
+  c = 10;
 
-int result;
-reslt = (800 + 80) * 10;
+  int result;
+  reslt = (800 + 80) * 10;
 
-
- Input         |   Result
-    8 80 10    |   8800 
+             
 }
 
 
