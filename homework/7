@@ -78,10 +78,12 @@
      
 { 
    int a;
+   int result1;
    int result;
    
    a = 138;
-   result =(a 
+   result1 = (138 % 100);
+   result = (38 / 10);
 
 
 
