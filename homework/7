@@ -115,22 +115,32 @@
      1234 |  6
 */
 { int num;
+  int result;
+  int result1;
+  
+  int num2;
   int ab;
   int AB;
   int = ABN;
   int cd;
   int CD;
   int CDN;
+  int finish;
   
   num = 1234;
   ab = (num / 100);
-  AB = (ab / 10);   1
-  ABN = (ab % 10);  2
+  AB = (ab / 10);   
+  ABN = (ab % 10);  
   cd = (num % 100);
-  CD = (cd / 10);  3
-  CDN = (cd % 10);  4 
+  CD = (cd / 10);  
+  CDN = (cd % 10);    
   
- 0 + 2 + 0 + 4
+  num2 = 1;
+  result = (AB,ABN,CD,CDN % 2);
+  result1 = (num2 - result);
+  finish = (result1 * AB) + (result1 * ABN) +(result1 * CD) + ( result 1 * CDN);
+  
+ 
  
    
 
