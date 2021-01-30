@@ -64,7 +64,16 @@
       Input   Output
       8 2     1
  */
- {
+ { 
+   int a;
+   int b;
+   int result;
+   int result1;
+   
+   a = 3;
+   b = 7;
+   result =(a % b) * (b % a);
+   result1 = result + 1;
  
  
  
