@@ -44,7 +44,7 @@
    N = 6;
    k = 30;
    result = (K % N);  //2 მეტია ვიდრე სხვები
-   result1 = N - result;
+   result1 = (N - result) % N;
 
 
 
